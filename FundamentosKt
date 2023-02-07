@@ -1,4 +1,4 @@
-
+/*
 fun main() {
     //println("o println serve para exibir texto no console")
     /*
@@ -9,3 +9,53 @@ fun main() {
      * de
      
 }AA
+/*
+/..........................................
+    fun main() {
+
+    println("Agiota: Gostaria de falar com Eduardo")
+    println("Eduardo: Só eu")
+    println("Agiota: Voce ta devendo R$ 1000 pro Rogers!!")
+    println("Eduardo: Oxii, eu não conheco nenhum Rogers!")
+    println("Agiota: Voce e Eduardo miranda que trabalha na BMS")
+    println("Eduardo: Como voce sabe isso??")
+    println("Agiota: Esse 1000 são de entrega de agua!!")
+    println("Eduardo: Mas a água e de graça!!")
+    println("Agiota: Mas o carreto não é")
+    println("Agiota:Voce tá devendo o rogers, Como voce vai pagar?")
+    println("Eduardo: cartão de credito, parcela em 12 vezes ")
+    println("Agiota: Voce vai usar o Nubank??")
+    println("Eduardo: Sim")
+    println("Agiota: limíte desse cartão foi estourado!!")
+    println("Eduardo: PI,PI,PI,PI")
+    
+    //Variáveis - armenizar valores, dados, informaões
+    
+    //val - não mutavel - não podemos alterar seu valor
+    //var - mutável - podemos alterar seu valor
+    //
+    //Tipos de variáveis:
+    //String-
+    //Int-
+    //Float-
+    //Double-
+    //Long-
+    //Boolean
+}    
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
