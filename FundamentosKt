@@ -43,6 +43,55 @@ fun main() {
     //Boolean
 }    
 /*
+fun main() {
+
+/* 
+    
+    //Variáveis - armenizar valores, dados, informaões
+    
+    //val - não mutavel - não podemos alterar seu valor
+    //var - mutável - podemos alterar seu valor
+    //
+    //Tipos de variáveis:
+    //String-armazena valores de tipo texto - dentro de "" ==>ex: "abóbora"
+    //Int-armazena números inteiros ==>7042
+    //Float-armazena número reais (no gearl) - necessita de um f no valor
+    //Double-armazena números quedrados(de forma arrendondado)==>7.15
+    //Long-armazena números longos ==>321341535841013564.35413684513685
+    //Boolean- verdadeiro ou falso ==> treu,false
+    
+    var cr7 = "Cristiano Ronaldo"
+    var Champions = 5
+    var altura = 1.87
+    
+
+
+    //Concatentação
+    
+   println("O nome dele é "+ cr7 + ", ele tem " + Champions)
+   println("Champions e ele tem" + altura +" de altura EU SOU U MIOR" )
+
+*/   
+            
+  var nome = " Luan "
+  var idade = 16
+  var altura = 1.80
+  var cidade = "São paulo " 
+  var insta = "ofcluan "
+  var contato = 11961698243
+ 
+ println(" o nome dele é " + nome + ", ele tem:  " + idade + " anos " + " , altura dele é: " + altura + ", ele mora em : " + cidade + " o insta dele é : " + insta + " ,e o contato dele é " + contato )
+/*
+
+//Operadores Relacionais
+//
+//
+//== => igual a ....
+//!= => dirente de ...
+//> => maior que....
+//< =< menor que ... 
+//>= -> maior ou igual a ...
+//<= ->menor ou igual a ...
 
 
 
