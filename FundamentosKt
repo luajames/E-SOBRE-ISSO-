@@ -94,6 +94,50 @@ fun main() {
 //<= ->menor ou igual a ...
 
 
+var n1 = 4
+var n2 = 7
+var divi = 9 
+var divi2 = 4 
+var mul = 52
+var mul1= 9
+    
+println("   🙂                  MINHA CALCULADORA         🙂     ")
+    
+println(" ///////***************************/////////////////*******")
+
+println("A adição de "+ n1 + " + " + n2 + " o total é ")
+
+
+println(n1 + n2)
+
+
+println(" ///////***************************/////////////////*******")
+
+
+println("A Divisão de "+ divi + " / "+ divi2 + "o total é ")
+
+
+println(divi / divi2)
+
+
+println(" ///////***************************/////////////////*******")
+
+
+println("A Multiplicação de " + mul + "*" + mul1 + " o total é ")
+
+
+println(mul * mul1)
+
+println("A Subtração de " + mul1+ "-" + mul + " o total é ")
+
+println(mul1 - mul)
+
+println(" Uma conta com tudo isso junto seria " + mul +   + mul1  + divi2 +  divi   +  n2  + n1 +" o total seria")
+
+println(mul * mul1 + n1 + divi2 / divi - n2)
+
+}
+
 
 
 
