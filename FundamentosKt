@@ -137,6 +137,87 @@ println(" Uma conta com tudo isso junto seria " + mul +   + mul1  + divi2 +  div
 println(mul * mul1 + n1 + divi2 / divi - n2)
 
 }
+Solutions
+Docs
+Community
+Teach
+Play
+
+1.8.10
+JVM
+Program arguments
+Copy link
+Share code
+Run
+}
+fun main() {
+   //Condições
+    //
+    //condições simples
+    //
+    //if--> se ...
+    //else --> senão
+    
+    var setvalue = "sim"
+    
+    if(setvalue == "sim"){
+        println("Vou entregar o chocolate para você")
+}else{
+      println("Chocolate pra todo mundo!!")}
+/*
+// se a condição for verdadeira, a sua ação será executado, senão, outra ação será 
+//executada
+// exercício ------> Faça uma comparação, usando uma variável e o if...else,se essa
+// comparação for verdaeira, um resultado deverá ser impresso, senão, outro (resultado)
+// será impresso  
+​
+  /*  
+    
+     var rogers = "sim"
+    
+    if( rogers == "não"){
+        println("todo mundo vai pegar o rogers")
+}else{
+      println("Apenas um vai correr atrás do rogers")
+    
+    }
+}
+​
+//condições compostas
+​
+var coracoes = 1
+​
+if(coracoes == 5){
+    println("Você esta ótimo !! Bom pra você 0")
+}else if(coracoes == 4){
+    println("Ce ta bem £")
+}else if (coracoes == 3){
+    prntln("Ce ta ok, pode  comer miojo")
+}else if (coracoes == 2){
+    println("vc não esta mito bem!! se cuida! vai correr seu gordo")
+}else if (coracoes == 1)
+println("Você esta morrendo, vc tem direito a um advogado e a uma ligação")
+}else if{
+    println("vc morreu seu burro, eu falei pra vc parar de comer miojo")
+ 
+}
+*/
+var idade = 18
+    
+if(idade <= 3){
+    println("Você é um nenê")
+}else if(idade <= 12){
+    println("Você é muito infaantíl")
+}else if(idade <= 18){
+    println("Tu é jovem! aproveite sua vida")
+}else if(idade <= 60){
+    println("tu e adukto!! paague a conta")
+}else if (idade > 60){
+    println("Que há velhhino")
+}else{
+    println("Você não existe")
+}  
+}
 
 
 
