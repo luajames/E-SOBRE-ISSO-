@@ -221,6 +221,51 @@ if(idade <= 3){
 
 
 
+    //Operadores Lógicos
+    //
+    //são usados quando queremos comparar mais de uma coisa na mesma condição
+    //
+    // && -> e
+    // || -> ou
+    // 
+    // TABELA VERDADE (com E e OU)
+    // 
+    // && -> a determinada ação só acontecerá se a somente se todas as condições forem verdadeiro
+    // 
+    // VV -> Verdadeiro
+    // VF -> Falso
+    // FV -> Falso
+    // FF -> Falso
+    // 
+    // || - a determinada ação será executada se pelo menos uma das condições forem verdadeiras
+    // 
+    // VV -> verdadeiro
+    // VF -> verdadeiro
+    // FV -> verdadeiro
+    // FF -> falso
+    // 
+    
+    /*
+   
+    var idade = 14
+    var acompanhadoDospais = false
+    
+    if(idade >= 14 && acompanhadoDospais == true){
+        println("Pode entrar, curt ae")
+    }else{
+        println("sai daqui seeu muluke")
+    */
+    
+    var alemanha = false
+    var brasil = true
+    
+    if(alemanha == false && brasil == true){
+        println("O Brasil estar chegando perto Hexa, ele ganha de 7 x 0")
+    }else{
+        println("O sonho d brasileiro acabou o Brasil não vai ter o Hexa")
+    }}
+
+
 
 
 
