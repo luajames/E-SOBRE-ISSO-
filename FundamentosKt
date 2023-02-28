@@ -264,6 +264,49 @@ if(idade <= 3){
     }else{
         println("O sonho d brasileiro acabou o Brasil não vai ter o Hexa")
     }}
+ Solutions
+Docs
+Community
+Teach
+Play
+
+1.8.10
+JVM
+Program arguments
+Copy link
+Share code
+Run
+n
+fun main() {
+//When - Quando
+//
+//Quando uma determinada condição for verdadeira, outra determinada ação será executada
+//
+//When(var){
+//valor -> ação a ser executada
+//outroValor -> Ação 
+//maisUm -> ação 
+//outro -> ação
+//else -> ação
+//}
+//
+var mes = 2
+    
+when(mes){
+    1 -> println("Acapulco - MEX" )
+    2 ->  println("Paris - FRA" )
+    3 ->  println("Berlim - ALE" )
+    4 ->  println("Monaco - MON" )
+    5 ->  println("Pequim - CHI" )
+    6 ->  println("Acre - BRA" )
+    7 ->  println("Roma - ITA" )
+    8 ->  println("Atenas - GRE" ) 
+    9 ->  println("Madri - ESP"  )
+    10 ->  println("Manchester - ING" )
+    11 ->  println("Dubai - EAU" )
+    else ->  println("São Paulo - SP")
+}}
+    
 
 
 
