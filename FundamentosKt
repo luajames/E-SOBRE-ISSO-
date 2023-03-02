@@ -306,6 +306,70 @@ when(mes){
     11 ->  println("Dubai - EAU" )
     else ->  println("São Paulo - SP")
 }}
+    fun main() {
+// Laços de Repetição
+// 
+// while - Enquanto
+// for - para
+// do..while - faça.. enquanto 
+// repeat - repita
+// 
+// 
+// laço While
+// enquanto uma determinada condição for verdadeira, outra determinada
+// ação será executada
+// 
+// Estrutura do While
+// 
+// while(condição){
+// ação
+// }
+/*
+var idade = 1
+ 
+while(idade <= 17){
+    println("$idade ? vai comer  mais arroz e feijão")
+    idade++
+}
+    println("Eu falei pra comer mais arroz e feijao, vai lá se divertir")
+}   
+*/
+
+//laço  do.. While 
+//
+//Uma determinada ação será executada, enquanto outra determinada condição for
+//verdadeira
+//
+//Estrutura do do.. While 
+// do{
+// ação
+// } While(condição)
+/*
+var number = 0
+    do{
+        println(number)
+        number++
+    }while(number > 17)
+  */
+    /*
+    var dias = 0
+    do{
+        println(dias)
+        dias++
+    }while(dias < 365)
+    
+    */
+    
+     
+     var idade = 1
+ 
+while(idade <= 17){
+    println("$idade ? vai comer  mais arroz e feijão")
+    idade++
+}
+    println("Eu falei pra comer mais arroz e feijao, vai lá se divertir")
+    
+    }}
     
 
 
