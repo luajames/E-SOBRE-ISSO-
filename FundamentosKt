@@ -371,6 +371,52 @@ while(idade <= 17){
     
     }}
     
+    fun main() {
+    /*
+// Laços de Repetição
+// while *
+// Do...While +
+// 
+// for > para..
+// 
+// For - Para cada item em uma lsta ou qualquer tipo de coleção, será executado uma
+// determinada ação
+// 
+// Estrutura do for:
+// for(item in list/collencion/intervalo){
+// ação
+// }
+// 
+*/
+/*
+
+for (item in 1..1){
+    println(3*1)
+    println(3*2)
+    println(3*3)
+    println(3*4)
+    println(3*5)
+    println(3*6)
+    println(3*7)
+    println(3*8)
+    println(3*9)
+    println(3*10)
+	   
+}
+*/
+//
+//repeat - Repita...
+//
+// uma determinda ação será repetida um determinada número de vezes
+// 
+var tartaruga = 0
+repeat(10){
+
+ println("")
+   }
+}
+
+    
 
 
 
