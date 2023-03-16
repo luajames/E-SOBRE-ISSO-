@@ -541,6 +541,144 @@ class Pessoa(){
  
 }
  
+ Solutions
+Docs
+Community
+Teach
+Play
+
+1.8.10
+JVM
+Program arguments
+Copy link
+Share code
+Run
+ 
+ fun main () { 
+    /*
+ var animal = mutableMapOf("gato" to 0, "leão" to 1, "tucano" to 2,"mamaco" to 3,)
+ println("animal")
+ animal.put("são paulo", 5)
+ println(animal)
+ animal.put("leopardo", 9)
+ println(animal)
+ animal.replace("tatu",3)
+ println(animal)
+ */
+    
+ //POO
+ //
+ //Programação Orientada a objetos
+ //
+ //Objetos - estado (características: nome, idade, cpf)
+ //
+ //Comportamentos - (andar, comer, dormir, conversar, programar)
+ //
+ //Classes - Modelos que servem para Contrução de objeto derivados
+ //
+ //
+ /*
+ val pessoa = Pessoa ()
+ pessoa.nome = "Curtis James Jackson III"
+ println(pessoa.nome)
+ pessoa.cpf = "458.555.785.41"
+ println(pessoa.cpf)
+ pessoa.idade = 40
+ println(pessoa.idade)
+ pessoa.altura = 1.85
+ println(pessoa.altura)
+ pessoa.nacionalidade = "Estados Unidos"
+ println(pessoa.nacionalidade)
+ 
+ */
+​
+​
+​
+​
+/*
+class Pessoa(){
+    //declaração de atributos para a classe Pessoa
+    var nome = ""
+    var cpf = ""
+    var rg = ""
+    var idade = 40
+    var altura = 1.85
+    var nacionalidade = ""
+    */
+​
+val paciente1 = Pessoa()
+​
+println("  🙂 ------------------Checkup------------------ 🙂 ")
+​
+paciente1.nome = "Eduardo Gabriel"
+     println(" ")
+println("Nome = " + paciente1.nome )
+println(" ")
+paciente1.Idade
+     println(" ")
+println("Idade = " + paciente1.Idade)
+println(" ")
+println(" 🙂 ---------------------- Ficha Medíca ---------------------- 🙂 ")
+​
+paciente1.nome = "Eduardo Gabriel" 
+println(" ")
+println("Nome = " + paciente1.nome)
+println (" ")
+paciente1.Idade
+println(" ")
+println("Idade = " + paciente1.Idade)
+println(" ")
+paciente1.Altura
+     println(" ")
+println("Altura do Paciente = " + paciente1.Altura)
+println(" ")
+paciente1.Orgãos = "TOME MAIS ÁGUA"
+println(" ")
+println("Orgãos do Paciente = "+ paciente1.Orgãos )
+println(" ")
+paciente1.Diabete = " nada encontrado"
+     println(" ")
+println("Diabete ="+ paciente1.Diabete)
+println(" ")
+paciente1.Sangue = "A+"
+println("Tipo sanguíneo = "+ paciente1.Sangue)
+println(" ")
+println("Você esta Saudável MAS BEBA MAIS ÁGUA ")
+println(" ")
+println(" 🙂 --------------------------------------- 🙂")
+ 
+​
+     
+     
+       
+     
+     
+     
+     
+ }
+   class  Pessoa() {
+​
+var nome = "" 
+var Idade = 19
+var Orgãos = ""
+var Sangue = "" 
+var Diabete = ""
+var Altura = 1.70
+​
+}
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
   
 
 
