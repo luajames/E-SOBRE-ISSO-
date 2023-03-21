@@ -667,7 +667,184 @@ var Altura = 1.70
 ​
 }
    
+   fun main () {
    
+    var jogador1 = JogadorDeBasquete1("Lebron James", "Los Angeles Lakers", 6 , "Estados Unidos", "Nike", "Ala", 97.0)
+    println("")
+    println(jogador1.nome)
+    println(jogador1.time)
+    println(jogador1.numero)
+    println(jogador1.nacionalidade)
+    println(jogador1.patrocínio)
+    println(jogador1.posição)
+    println(jogador1.preço)
+    
+    println("")
+
+println("-------------------------------------------------------------")
+var jogador2 = JogadorDeBasquete2("Anthony Davis", "Los Angeles Lakers", 3 , "Estados Unidos", "Nike", "Ala-Pívo", 90.0)
+println("")
+println(jogador2.nome)
+println(jogador2.time)
+println(jogador2.numero)
+println(jogador2.nacionalidade)
+println(jogador2.patrocínio)
+println(jogador2.posição)
+println(jogador2.preço)
+println("")
+println("-------------------------------------------------------------")
+var jogador3 = JogadorDeBasquete3("Stheph Curry", "Angeles Lakers",10 , "Estados Unidos", "Nike", "Armador", 99.0)
+
+println(jogador3.time)
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+class JogadorDeBasquete(var nome: String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class JogadorDeBasquete1(var nome: String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+
+}  
+class JogadorDeBasquete2(var nome:String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+    
+}   
+class JogadorDeBasquete3 (var nome:String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+
+}  
+class JogadorDeBasquete4 (var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+}
+class JogadorDeBasquete5(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+                        }
+class JogadorDeBasquete6(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+                        }
+class JogadorDeBasquete7(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+                            
+}
+class JogadorDeBasquete8(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+                            
+                        }
+class JogadorDeBasquete9(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+                            
+                        }
+class JogadorDeBasquete10(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+                        
+                        }
+class JogadorDeBasquete11(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+
+}
    
    
    
