@@ -668,105 +668,9 @@ var Altura = 1.70
 }
    
   
-class JogadorDeBasquete1(var nome: String,
-                        var time: String,
-                        var numero: Int,
-                        var nacionalidade: String,
-                        var patrocínio: String,
-                        var posição: String,
-                        var preço: Double){
 
-}  
-class JogadorDeBasquete2(var nome:String,
-                        var time: String,
-                        var numero: Int,
-                        var nacionalidade: String,
-                        var patrocínio: String,
-                        var posição: String,
-                        var preço: Double){
-    
-}   
-class JogadorDeBasquete3 (var nome:String,
-                        var time: String,
-                        var numero: Int,
-                        var nacionalidade: String,
-                        var patrocínio: String,
-                        var posição: String,
-                        var preço: Double){
-
-}  
-class JogadorDeBasquete4 (var nome : String,
-                        var time: String,
-                        var numero: Int,
-                        var nacionalidade: String,
-                        var patrocínio: String,
-                        var posição: String,
-                        var preço: Double){
-}
-class JogadorDeBasquete5(var nome : String,
-                        var time: String,
-                        var numero: Int,
-                        var nacionalidade: String,
-                        var patrocínio: String,
-                        var posição: String,
-                        var preço: Double){
-                        }
-class JogadorDeBasquete6(var nome : String,
-                        var time: String,
-                        var numero: Int,
-                        var nacionalidade: String,
-                        var patrocínio: String,
-                        var posição: String,
-                        var preço: Double){
-                        }
-class JogadorDeBasquete7(var nome : String,
-                        var time: String,
-                        var numero: Int,
-                        var nacionalidade: String,
-                        var patrocínio: String,
-                        var posição: String,
-                        var preço: Double){
-                            
-}
-class JogadorDeBasquete8(var nome : String,
-                        var time: String,
-                        var numero: Int,
-                        var nacionalidade: String,
-                        var patrocínio: String,
-                        var posição: String,
-                        var preço: Double){
-                            
-                        }
-class JogadorDeBasquete9(var nome : String,
-                        var time: String,
-                        var numero: Int,
-                        var nacionalidade: String,
-                        var patrocínio: String,
-                        var posição: String,
-                        var preço: Double){
-                            
-                        }
-class JogadorDeBasquete10(var nome : String,
-                        var time: String,
-                        var numero: Int,
-                        var nacionalidade: String,
-                        var patrocínio: String,
-                        var posição: String,
-                        var preço: Double){
-                        
-                        }
-class JogadorDeBasquete11(var nome : String,
-                        var time: String,
-                        var numero: Int,
-                        var nacionalidade: String,
-                        var patrocínio: String,
-                        var posição: String,
-                        var preço: Double){
-
-}
-   
 fun main () {
-   
+   /*
     
     println(" -------- Jogadores selecionados para o ALL-STAR Game --------")
     
@@ -1215,7 +1119,23 @@ class JogadorDeBasquete11(var nome : String,
                         var patrocínio: String,
                         var posição: String,
                         var preço: Double){
+*/
 
+
+    // Métodos/Função - são um grupo de ações que representam uma determinada atividade de um 
+    // determinado objeto
+    // 
+    // Estrutura de um método no Kotlin
+    // 
+    // fun nomeDela (parametros - se tiver){
+    // ações 
+    // }
+    // 
+    // 
+    // var nomeDoObjeto = ClasseDela()
+    // 
+    // nomeDoObjeto.nomeDela
+    
 }
    
    
