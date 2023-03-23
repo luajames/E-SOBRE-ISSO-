@@ -667,17 +667,132 @@ var Altura = 1.70
 ​
 }
    
-   fun main () {
+  
+class JogadorDeBasquete1(var nome: String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+
+}  
+class JogadorDeBasquete2(var nome:String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+    
+}   
+class JogadorDeBasquete3 (var nome:String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+
+}  
+class JogadorDeBasquete4 (var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+}
+class JogadorDeBasquete5(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+                        }
+class JogadorDeBasquete6(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+                        }
+class JogadorDeBasquete7(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+                            
+}
+class JogadorDeBasquete8(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+                            
+                        }
+class JogadorDeBasquete9(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+                            
+                        }
+class JogadorDeBasquete10(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+                        
+                        }
+class JogadorDeBasquete11(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
+
+}
    
+fun main () {
+   
+    
+    println(" -------- Jogadores selecionados para o ALL-STAR Game --------")
+    
+    
     var jogador1 = JogadorDeBasquete1("Lebron James", "Los Angeles Lakers", 6 , "Estados Unidos", "Nike", "Ala", 97.0)
     println("")
     println(jogador1.nome)
+    println("")
+
     println(jogador1.time)
+    println("")
+
     println(jogador1.numero)
+    println("")
+
     println(jogador1.nacionalidade)
+    println("")
+
     println(jogador1.patrocínio)
+    println("")
+
     println(jogador1.posição)
+    println("")
+
     println(jogador1.preço)
+
     
     println("")
 
@@ -685,27 +800,276 @@ println("-------------------------------------------------------------")
 var jogador2 = JogadorDeBasquete2("Anthony Davis", "Los Angeles Lakers", 3 , "Estados Unidos", "Nike", "Ala-Pívo", 90.0)
 println("")
 println(jogador2.nome)
+println("")
+
 println(jogador2.time)
+println("")
+
 println(jogador2.numero)
+println("")
+
 println(jogador2.nacionalidade)
+println("")
+
 println(jogador2.patrocínio)
+println("")
+
 println(jogador2.posição)
+println("")
+
 println(jogador2.preço)
 println("")
 println("-------------------------------------------------------------")
-var jogador3 = JogadorDeBasquete3("Stheph Curry", "Angeles Lakers",10 , "Estados Unidos", "Nike", "Armador", 99.0)
+var jogador3 = JogadorDeBasquete3("Stheph Curry", "Golden State Warriors",10 , "Estados Unidos", "Under Armour ", "Armador", 99.0)
+
+println(jogador3.nome)
+println("")
 
 println(jogador3.time)
+println("")
+
+println(jogador3.numero)
+println("")
+
+println(jogador3.nacionalidade)
+println("")
+
+println(jogador3.patrocínio)
+println("")
+
+println(jogador3.posição)
+println("")
+
+println(jogador3.preço)
+println("")
+
+println("-------------------------------------------------------------")
+
+var jogador4 = JogadorDeBasquete4("Kevin Durant", "Phonix Suns", 35 , "Estados Unidos", "Neff e a Foot Locker", "Ala-Pivô", 92.9)
+
+println(jogador4.nome)
+println("")
+
+println(jogador4.time)
+println("")
+
+println(jogador4.numero)
+println("")
+
+println(jogador4.nacionalidade)
+println("")
+
+println(jogador4.patrocínio)
+println("")
+
+println(jogador4.posição)
+println("")
+
+println(jogador4.preço)
+println("")
+
+println("-------------------------------------------------------------")
+
+var jogador5 = JogadorDeBasquete5("Devin Booker", "Phonix Suns", 1 , "Estados Unidos", "?", "Ala-Armador", 33.8)
+
+println(jogador5.nome)
+println("")
+
+println(jogador5.time)
+println("")
+
+println(jogador5.numero)
+println("")
+
+println(jogador5.nacionalidade)
+println("")
+
+println(jogador5.patrocínio)
+println("")
+
+println(jogador5.posição)
+println("")
+
+println(jogador5.preço)
+println("")
+
+println("-------------------------------------------------------------")
+
+var jogador6 = JogadorDeBasquete6("Kyrie Irving", "Dallas Mevericks",2, "Estados Unidos", "Nike", "Armador", 36.9)
+
+println(jogador6.nome)
+println("")
+
+println(jogador6.time)
+println("")
+
+println(jogador6.numero)
+println("")
+
+println(jogador6.nacionalidade)
+println("")
+
+println(jogador6.patrocínio)
+println("")
+
+println(jogador6.posição)
+println("")
+
+println(jogador6.preço)
+println("")
+
+println("-------------------------------------------------------------")
+
+var jogador7 = JogadorDeBasquete7("Nikola Jokic", "Denver Nuggets", 15, "Servía", "?", "Pivô", 32.4)
+
+println(jogador7.nome)
+println("")
+
+println(jogador7.time)
+println("")
+
+println(jogador7.numero)
+println("")
+
+println(jogador7.nacionalidade)
+println("")
+
+println(jogador7.patrocínio)
+println("")
+
+println(jogador7.posição)
+println("")
+
+println(jogador7.preço)
+println("")
+
+println("-------------------------------------------------------------")
+
+var jogador8 = JogadorDeBasquete8("Joel Embiid", "Philadelphia", 21, "Camarões", "Under Armour", " Ala-Pivô", 33.6)
+
+println(jogador8.nome)
+println("")
+
+println(jogador8.time)
+println("")
+
+println(jogador8.numero)
+println("")
+
+println(jogador8.nacionalidade)
+println("")
+
+println(jogador8.patrocínio)
+println("")
+
+println(jogador8.posição)
+println("")
+
+println(jogador8.preço)
+println("")
+
+println("-------------------------------------------------------------")
+
+var jogador9 = JogadorDeBasquete9("Giannis Antetokounmpo", "Milwaukee Bucks", 34, "Grécia", "?", " Pivô", 39.3)
+
+println(jogador9.nome)
+println("")
+
+println(jogador9.time)
+println("")
+
+println(jogador9.numero)
+println("")
+
+println(jogador9.nacionalidade)
+println("")
+
+println(jogador9.patrocínio)
+println("")
+
+println(jogador9.posição)
+println("")
+
+println(jogador9.preço)
+println("")
+
+println("-------------------------------------------------------------")
+
+var jogador10 = JogadorDeBasquete10("Luka Doncic", "Dallas Mevericks", 77, "Eslovênia", "Jordan", "Armador", 37.0)
+
+println(jogador10.nome)
+println("")
+
+println(jogador10.time)
+println("")
+
+println(jogador10.numero)
+println("")
+
+println(jogador10.nacionalidade)
+println("")
+
+println(jogador10.patrocínio)
+println("")
+
+println(jogador10.posição)
+println("")
+
+println(jogador10.preço)
+println("")
+
+println("-------------------------------------------------------------")
 
 
+var jogador11 = JogadorDeBasquete11("Jayson Tatum", "Boston Celtics",0, "Estado Unidos", "Jordan Brand", "Ala", 30.3)
 
+println(jogador11.nome)
+println("")
 
+println(jogador11.time)
+println("")
 
+println(jogador11.numero)
+println("")
 
+println(jogador11.nacionalidade)
+println("")
 
+println(jogador11.patrocínio)
+println("")
 
+println(jogador11.posição)
+println("")
 
+println(jogador11.preço)
+println("")
 
+println("-------------------------------------------------------------")
+
+var jogador12 = JogadorDeBasquete12("Jamel Morant", "Memphis Grizzlies",12, "Estado Unidos", "Nike", "Armador", 40.3)
+
+println(jogador12.nome)
+println("")
+
+println(jogador12.time)
+println("")
+
+println(jogador12.numero)
+println("")
+
+println(jogador12.nacionalidade)
+println("")
+
+println(jogador12.patrocínio)
+println("")
+
+println(jogador12.posição)
+println("")
+
+println(jogador12.preço)
+println("")
+
+println("-------------------------------------------------------------")
 
 }
 
@@ -843,9 +1207,41 @@ class JogadorDeBasquete11(var nome : String,
                         var patrocínio: String,
                         var posição: String,
                         var preço: Double){
+}
+    class JogadorDeBasquete12(var nome : String,
+                        var time: String,
+                        var numero: Int,
+                        var nacionalidade: String,
+                        var patrocínio: String,
+                        var posição: String,
+                        var preço: Double){
 
 }
    
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
    
    
    
