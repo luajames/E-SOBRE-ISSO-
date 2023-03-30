@@ -1140,90 +1140,104 @@ class JogadorDeBasquete11(var nome : String,
    
    
       
- val contaCorrente = ContaBanco(40028922, 50.1 , "Rogers da ZS" )  
- contaCorrente.consultarSaldo()
-  contaCorrente.saque(25.1, 0000)
+
+ fun main() {
+    /*
+    //Métodos/funções - são um grupo de ações que representam uma determinada atividade de um
+    //determinado objeto 
+    //
+    // Estrutura de um método no Kotlin 
+    // 
+    // 
+    // 
+    // fun nomeDela (parametros - se tiver){
+    // ações
+    // } 
+    // 
+    // 
+    // var nomeDoObjeto = ClasseDele() 
+    // 
+    // nomeDoObjeto.nomeDela(parâmetros)  
+    // 
+    
+    val contaCorrente = ContaBanco(174253789400012, 50.0, "Rogers") 
+    contaCorrente.consultarSaldo()
+    contaCorrente.saque(0.3, 2984)
+    
+    
 }
 
 
-class ContaBanco (val num: Long, var saldo: Double, dono: String){
+class ContaBanco(val num: Long, var saldo: Double, var dono: String){
     
-    //consultar Saldo, Saque e Deposito
+    
+    //Consultar Saldo, Saque e Deposito
+    //
+    // 
     //
     fun consultarSaldo(){
-       println("Saldo da sua conta é R$$saldo") 
-      }
-    fun Saque(valor: Double, senha: Int){
+        println("O saldo da sua conta é R$$saldo")
+    } 
+    
+    fun saque(valor: Double, senha: Int){
         
-        if(senha == "0000"){
-             if(saldo >= valor){
-                 saldo -= valor // vai subtrair o Valor do Saldo
-                 println("Saque de R$$valor realizado com sucesso!")
-             }else if(valor <= 0){
-                 println("Impossível sacar R$$valor")
-             }else{
-                 println("Saldo Insuficiente, saque de R$$valor não realizado")
-  
-    }
+        if(senha == 2984){
+            if(saldo >= valor){
+                saldo -= valor // vai subtrair o Valor do Saldo
+                println("Saque de R$$valor realizado com sucesso ☺")
+            }else if(valor <= 0){
+                println("Impossível sacar R$$valor") 
+            }else{
+                println("Saldo Insuficiente, saque de R$$valor não realizado")
+            }
         }else{
-            println("Senha Incorreta! Tente noovamente")
-    
-
-}  
-    
-    }    
-    
-}  
+            println("Senha Incorreta! Tente novamente")
+        }
+        
+        
+    }
+    */
     
     
-    
-    
-    
+    val contaCorrente = ContaBanco(174253789400012, 50.0, "Rogers")
+    contaCorrente.consultarSaldo()
+    contaCorrente.deposito(20.0)
+    contaCorrente.resultado(70.0)
+    contaCorrente.tranferir(30.0)
+ }
  
+   class ContaBanco(val num: Long, var saldo: Double, var dono: String){
+    
+    //Consultar Saldo, Saque e Deposito
+    //
+    // 
+    //
+    //
+    
+   fun consultarSaldo(){
+        println("O saldo da sua conta é R$$saldo")
+    } 
+    
+      fun deposito(valor: Double){
+        
+       
+            if(saldo >= valor){
+                saldo -= valor // vai subtrair o Valor do Saldo
+                println("Eduardo te enviou um deposíto de R$$valor  ☺")
+            }else if(valor <= 0){
+                println("Impossível depositar R$$valor") 
+            }else{
+                println("Deposíto Insuficiente,Deposíto de R$$valor não realizado")
+            }
+      }
+           fun resultado(resultado: Double){
+           
+           println("Seu valor total agora é de : R$$resultado")
+        
+     
+        
+    }
    
-   
-   
-   
-   
-   
-   
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-   
-   
-   
-   
-   
-   
-   
-   
-   
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   }
+ 
+    
